@@ -1,0 +1,33 @@
+@font-face {
+
+      font-family: "Euro";
+      src: url("../fontes/eurof35.ttf") format("truetype");
+   }
+   body { background-color:#111;}
+@media screen and (min-width: 320px) {
+
+	
+
+}
+
+@media screen and (min-width: 480px) {
+  
+  
+
+}
+
+@media screen and (min-width: 768px) {
+  
+  
+
+}
+
+@media screen and (min-width: 1024px) {
+	#form { width:400px; height:auto; margin-left:auto; margin-right:auto; margin-top:25px; }
+	#form input { width:390px; height:10px; border-radius:10px;  margin-left:auto; margin-right:auto; display:block; font-family:Euro; font-size:25px; padding:5px;
+	}
+	#form #mensagem { width:380px; height:180px; border-radius:10px;  margin-left:auto; margin-right:auto; display:block; font-family:Euro; font-size:25px; padding:10px;}
+	#form #botao { width:100px; height:25px; float:right; margin-right:30px; margin-top:20px; color:#111; background-color:#EAEAEA; font-family:Euro; font-size:20px; border-radius:30px; padding:0;} 
+	#form h1 { color:#EAEAEA; width:400px; height:35px; margin-left:auto; margin-right:auto; margin-top:5px; font-size:25px; font-family:Euro;}
+	
+}

@@ -1,0 +1,38 @@
+* { margin:0; padding:0;}
+@font-face {
+
+      font-family: "Euro";
+      src: url("../fontes/eurof35.ttf") format("truetype");
+   }
+
+
+@media screen and (min-width: 320px) {
+
+	
+
+}
+
+@media screen and (min-width: 480px) {
+  
+  
+
+}
+
+@media screen and (min-width: 768px) {
+  
+  
+
+}
+
+@media screen and (min-width: 1024px) {
+ 	#T-cabecalho { width:100%; height:150px; background-color:#111111; display:block;}
+	#cabecalho { width:1024px; height:150px; margin-left:auto; margin-right:auto; overflow:hidden; }
+	#cabecalho img { float:left; margin-left:55px; width:123px; height:97px; margin-top:26px;}
+	#menu {width:700px; height:35px; float:right; margin-right:55px; margin-top:80px; border-radius:20px; background-color:#EAEAEA; overflow:hidden;}
+	#menu ul { width:700px; height:35px; font-size:20.5px; list-style:none; font-family:Euro; text-align:center;}
+	#menu li {width:175px; height:28px; padding-top:8px; float:left;  overflow:hidden;}
+	#menu li a { text-decoration:none; color:#111;}
+	#menu li:hover { background-color:#318989; transition: 0.5s ease-out; }
+  
+}
+

@@ -1,0 +1,74 @@
+
+
+@font-face {
+
+      font-family: "Euro";
+      src: url("../fontes/eurof35.ttf") format("truetype");
+   }
+@media screen and (min-width: 320px) {
+
+	
+
+}
+
+@media screen and (min-width: 480px) {
+  
+  
+
+}
+
+@media screen and (min-width: 768px) {
+  
+  
+
+}
+
+@media screen and (min-width: 1024px) {
+	#T-container { width:100%; height:250px; background-color:#111; margin-top:20px;}
+	#container { width:1024px; height:250px; margin-left:auto; margin-right:auto; display:block; overflow:hidden; background-color:#111; }
+	#container img {width:230px; height:230px; float:left; margin-left:150px; margin-top:10px; border-radius:230px;}
+	.textos { width:480px; height:230px; margin-left:20px; margin-top:10px; float:right;}
+	.textos h1 { width:100%; height:25px; margin-top:5px; font-size:30px; font-family:Euro; text-align:center; color:#EAEAEA;}
+	.textos p { width:100%; height:100px; font-size:20px; font-family:Euro; text-align:center; color:#EAEAEA; margin-top:15px;}
+	.textos a {width:100px; height:20px; margin-top:40px; color:#EAEAEA; text-align:center; float:right;}
+
+
+
+
+	
+#next_prev {
+margin:0 auto;
+width:950px;
+position:relative;
+z-index:150;
+top:-150px;
+}
+#next_prev a {
+	text-decoration:none;
+	color:#FFF;
+}
+#next {
+	background-image:url(../img/slide/dir.png);
+	position:relative;
+	width:60px;
+	height:60px;
+	float:right;
+	text-align:center;
+	line-height:30px;
+	margin-right:10px;
+	}
+	#prev {
+	background-image:url(../img/slide/esq.png) ;
+	position:relative;
+	width:60px;
+	height:60px;
+	float:left;
+	text-align:center;
+	line-height:30px;
+	margin-left:10px;
+	}
+  
+  
+
+	
+}

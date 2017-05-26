@@ -1,0 +1,34 @@
+@font-face {
+
+      font-family: "Euro";
+      src: url("../fontes/eurof35.ttf") format("truetype");
+   }
+   body { background-color:#111;}
+
+@media screen and (min-width: 320px) {
+
+	
+
+}
+
+@media screen and (min-width: 480px) {
+  
+  
+
+}
+
+@media screen and (min-width: 768px) {
+  
+  
+
+}
+
+@media screen and (min-width: 1024px) {
+
+#T-conteiner { width:100%; ; background-color:#111;}
+
+#conteiner { width:950px; height:100%; margin-left:auto; margin-right:auto; overflow:hidden; color:#EAEAEA; padding:10px;}
+p { margin:10px 0;}
+
+
+}
